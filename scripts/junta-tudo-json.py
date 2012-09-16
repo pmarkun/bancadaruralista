@@ -55,8 +55,8 @@ def sleepy(wholedeal):
         db = connection['bancadaruralista']
         bancada = db.bancada
 
-        for d in third_step:
-            bancada.insert(final[d])
+        for d in wholedeal:
+            bancada.insert(wholedeal[d])
 
 final = carregaGeral()
 sleepy(final)
