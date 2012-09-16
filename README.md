@@ -45,7 +45,7 @@ Para construir o app delineamos algumas analíses possíveis em cima dos dados d
 (XML do Senado)[http://legis.senado.gov.br/dadosabertos/materia/100475]
 (Scraper da Câmara)[https://scraperwiki.com/scrapers/camara-codigo-florestal/] - by Dani
 (Scraper do Senado)[https://github.com/barraponto/brazilian-camara-voting] - by Capi
-(Scripts váriados)[] - by Pedro
+(Scripts váriados)[https://github.com/pmarkun/bancadaruralista] - by Pedro
 (Estrutura JSON)[] - by Cara Ruivo do PP
 (Planilha de organização)[https://docs.google.com/spreadsheet/ccc?key=0At9GzGQkNUDndEgyWGhGb2wxSXBlSnQ2V2d6VnVtZ1E] - by um monte de gente
 (Dados no TSE)[http://www.tse.jus.br/eleicoes/repositorio-de-dados-eleitorais] - by SE
