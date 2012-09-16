@@ -45,7 +45,7 @@ Para construir o app delineamos algumas analíses possíveis em cima dos dados d
 
 (XML do Senado)[http://legis.senado.gov.br/dadosabertos/materia/100475]
 
-(Scraper da Câmara)[https://scraperwiki.com/scrapers/camara-codigo-florestal/] - by Dani
+(Scraper da Senado)[https://scraperwiki.com/scrapers/senado-votacoes/] - by Dani
 
 (Scraper do Senado)[https://github.com/barraponto/brazilian-camara-voting] - by Capi
 
