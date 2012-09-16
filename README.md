@@ -47,7 +47,7 @@ Para construir o app delineamos algumas analíses possíveis em cima dos dados d
 
 (Scraper da Senado)[https://scraperwiki.com/scrapers/senado-votacoes/] - by Dani
 
-(Scraper do Senado)[https://github.com/barraponto/brazilian-camara-voting] - by Capi
+(Scraper da Câmara)[https://github.com/barraponto/brazilian-camara-voting] - by Capi
 
 (Scripts váriados)[https://github.com/pmarkun/bancadaruralista] - by Pedro
 
