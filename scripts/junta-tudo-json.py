@@ -50,7 +50,7 @@ def carregaGeral(filename="../dados/raw/eleitos-cut.csv"):
     second_step = {}
     return third_step
 
-def sleepy(wholedeal) {
+def sleepy(wholedeal):
         connection = pymongo.Connection('localhost', 27017)
         db = connection['bancadaruralista']
         bancada = db.bancada
