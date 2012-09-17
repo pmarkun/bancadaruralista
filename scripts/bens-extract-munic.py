@@ -56,7 +56,7 @@ def generateMunics(geo_ref):
 
 # Gera um objeto com uma soma dos valores por Estado
 def generateEstados(geo_ref):
-    return generateByKey(geo_ref, 'VALOR_BEM')
+    return generateByKey(geo_ref, 'ESTADOS')
 
 # Roda o script - comentado
 bens_csv = csv.DictReader(open("../dados/raw/bens.csv", "r"))
