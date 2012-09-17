@@ -36,32 +36,27 @@ def searchMunicipios(csvlist, munic):
             geo_ref.append(data)
     return geo_ref
 
-# Gera um objeto com uma soma dos valores por código do IBGE    
-def generateMunics(geo_ref):
-    print "Somando valores por municipios..."
+# Gera um objeto com uma soma dos valores pela chave passada
+def generateByKey(geo_ref, key):
+    print "Somando valores por %s..." % key
     terras_count = {}
     for e in geo_ref:
-        l_id = e['geo'][0]['CODIGO_MUN']
+        l_id = e['geo'][0][key]
         valor = float(e['VALOR_BEM'])
         if terras_count.has_key(l_id):
             terras_count[l_id] += valor
         else:
             terras_count[l_id] = valor
     return terras_count
+    
+    
+# Gera um objeto com uma soma dos valores por código do IBGE    
+def generateMunics(geo_ref):
+    return generateByKey(geo_ref, 'CODIGO_MUN')
 
 # Gera um objeto com uma soma dos valores por Estado
 def generateEstados(geo_ref):
-    print "Somando valores por estados..."
-    terras_count = {}
-    for e in geo_ref:
-        l_id = e['geo'][0]['ESTADOS']
-        valor = float(e['VALOR_BEM'])
-        if terras_count.has_key(l_id):
-            terras_count[l_id] += valor
-        else:
-            terras_count[l_id] = valor
-    return terras_count
-
+    return generateByKey(geo_ref, 'ESTADOS')
 
 # Roda o script - comentado
 bens_csv = csv.DictReader(open("../dados/raw/bens.csv", "r"))
